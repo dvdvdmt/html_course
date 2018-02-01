@@ -1,4 +1,19 @@
-.hello {
-    color: blue;
-    font-weight: normal;
+* {
+    box-sizing: border-box;
 }
+
+html, body {
+    color: #fff;
+    background-color: #21182F;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
