@@ -12,8 +12,29 @@ html, body {
     margin: 0 auto;
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
+.header {
+    height: 74px;
 }
 
+.header__header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 120px;
+    height: 34px;
+}
+
+.button {
+    width: 154px;
+    height: 52px;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
