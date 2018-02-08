@@ -3,8 +3,9 @@
 }
 
 html, body {
-    color: #fff;
+    color: #FFFFFF;
     background-color: #21182F;
+    margin: 0;
 }
 
 .container {
@@ -20,6 +21,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
 }
 
 .header__logo {
@@ -27,14 +29,28 @@ html, body {
     height: 34px;
 }
 
+.hero {
+    height: 660px;
+    background-image: url("./images/hero_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button {
     width: 154px;
     height: 52px;
-    border: 2px solid #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
     border-radius: 30px;
     background: none;
-    color: #fff;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 900;
     text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.button--primary {
+    border-color: #FFFFFF;
 }
