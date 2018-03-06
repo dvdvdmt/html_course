@@ -3,6 +3,7 @@
 }
 
 html, body {
+    font-family: "Open Sans", serif;
     color: #FFFFFF;
     background-color: #21182F;
     margin: 0;
@@ -71,6 +72,7 @@ html, body {
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
+    font-family: inherit;
     background: none;
     color: #FFFFFF;
     font-size: 16px;
@@ -82,4 +84,24 @@ html, body {
 
 .button--primary {
     border-color: #FFFFFF;
+}
+
+.button--buy {
+    border-color: #EB852F;
+    background-color: #EB852F;
+}
+
+.button--trailer {
+    border-color: #20191A;
+    background-color: #20191A;
+    width: 180px;
+}
+
+.button--trailer::after {
+    content: "";
+    display: inline-block;
+    width: 12px; 
+    height: 12px;
+    margin-left: 6px;
+    background: url("./images/play_icon.svg") no-repeat;
 }
