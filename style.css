@@ -105,3 +105,35 @@ html, body {
     margin-left: 6px;
     background: url("./images/play_icon.svg") no-repeat;
 }
+
+.platforms {
+    height: 220px;
+    background-image: url("./images/platforms_cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.platforms__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.platforms__description {
+    width: 540px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.platforms__logos {
+    display: flex;
+    flex-grow: 1;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.platforms__logo-windows {
+    margin-right: 64px;
+}
