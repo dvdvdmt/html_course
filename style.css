@@ -15,6 +15,49 @@ html, body {
     height: 100%;
 }
 
+.carousel {
+    position: relative;
+    height: 600px;
+}
+
+.carousel__button {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 230px;
+    height: 100%;
+    background-image: url("images/chevron.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.carousel__button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel__button--next {
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.carousel__slides {
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel__slide {
+    height: 100%;
+}
+
+.carousel__slide--1 {
+    background-image: url("./images/slide_1_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header {
     height: 74px;
 }
@@ -100,7 +143,7 @@ html, body {
 .button--trailer::after {
     content: "";
     display: inline-block;
-    width: 12px; 
+    width: 12px;
     height: 12px;
     margin-left: 6px;
     background: url("./images/play_icon.svg") no-repeat;
