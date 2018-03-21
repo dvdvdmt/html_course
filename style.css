@@ -26,7 +26,7 @@ html, body {
     top: 0;
     width: 230px;
     height: 100%;
-    background-image: url("images/chevron.svg");
+    background-image: url("images/chevron.svg"), none;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
@@ -39,6 +39,40 @@ html, body {
 .carousel__button--next {
     right: 0;
     transform: rotate(180deg);
+}
+
+.carousel__control {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+}
+
+.carousel__position {
+    width: 20px;
+    height: 20px;
+    border: 5px solid transparent;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-right: 10px;
+    background-clip: padding-box;
+    cursor: pointer;
+}
+
+.carousel__position:hover {
+    opacity: 0.8;
+}
+
+.carousel__position:last-child {
+    margin: 0;
+}
+
+.carousel__position--active {
+    background-clip: border-box;
 }
 
 .carousel__slides {
