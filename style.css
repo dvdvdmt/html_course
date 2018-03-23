@@ -92,6 +92,21 @@ html, body {
     background-size: cover;
 }
 
+.features {
+    height: 550px;
+}
+
+.features__content {
+    background-image: url("./images/features_background.png");
+    background-repeat: no-repeat;
+    background-position: 60px bottom;
+    background-size: 394px 516px;
+    padding-left: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .header {
     height: 74px;
 }
