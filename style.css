@@ -107,6 +107,29 @@ html, body {
     justify-content: center;
 }
 
+.features__header {
+    font-size: 36px;
+    margin-bottom: 46px;
+}
+
+.features__intro {
+    color: #CF9549;
+    font-size: 20px;
+    margin: 0;
+    font-weight: normal;
+    max-width: 380px;
+}
+
+.features__list {
+    margin: 0;
+    padding-left: 25px;
+    list-style: url("./images/bullit_features.svg");
+}
+
+.features__item + .features__item {
+    margin-top: 22px;
+}
+
 .header {
     height: 74px;
 }
