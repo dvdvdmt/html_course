@@ -252,3 +252,42 @@ html, body {
 .platforms__logo-windows {
     margin-right: 64px;
 }
+
+.requirements {
+    height: 410px;
+    background: url("./images/requirements_cover.png");
+}
+
+.requirements__column {
+    width: 50%;
+}
+
+.requirements__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.requirements__header {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.requirements__list {
+    display: flex;
+    justify-content: center;
+    width: 630px;
+}
+
+.requirements__list dt, .requirements__list dd {
+    display: inline;
+}
+
+.requirements__list dt {
+    color: #ABABAB;
+}
+
+.requirements__row + .requirements__row {
+    margin-top: 40px;
+}
